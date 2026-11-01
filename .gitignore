@@ -1,0 +1,77 @@
+
+# ==============================
+# React / Frontend
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+frontend/coverage/
+
+# Environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==============================
+# Spring Boot / Backend
+# ==============================
+backend/target/
+backend/build/
+backend/.gradle/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Environment and configuration secrets
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-dev.properties
+
+# ==============================
+# Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+# Local secrets
+src/main/resources/application-local.properties
+
+# Maven generated files
+target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+application-dev.properties
+secrets.properties
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.swp
+*.bak
